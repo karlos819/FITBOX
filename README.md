@@ -1,86 +1,98 @@
-# FITBOX 2021145124 김문성
-**FITBOX**는 심박수를 기반으로 운동 중에 음악을 추천해주는 IOS앱 입니다.
-운동 중 몰입도와 재미를 높이기 위한 피트니스 도우미 앱으로 설계 되었습니다
+# 📱 FITBOX  
+**2021145124 김문성**  
+
+**FITBOX**는 심박수를 기반으로 운동 중 음악을 추천해주는 iOS 앱입니다.  
+운동의 몰입도와 재미를 높이기 위한 스마트 피트니스 도우미로 설계되었습니다.
 
 ---
-## 주요 기능
--심박수 실시간 측정(HealthKit 연동)
--유튜브 음악 자동 추천(심박수 기반 BPM검색)
--운동 타이머, 기록 확인
--캘린더를 통한 운동 이력 조회
+
+## 💡 주요 기능
+- 실시간 심박수 측정 (HealthKit 연동)
+- 유튜브 음악 자동 추천 (심박수 기반 BPM 검색)
+- 운동 타이머 및 기록 확인
+- 캘린더 기반 운동 이력 조회
 
 ---
-## 개발 환경
--Xcode (StoryBoard 기반)
--Swift 5
--UIKIT/ MAPKIT/ HealthKit
--Firebase API(로그인, 회원가입 구현)
--Youtube API(음악 재생)
--GitHub를 이용한 버전 관리
----
-## 실행 방법
-1. 프로젝트 압축을 해제한 후 'FITBOX.xcodeproj'파일을 xcode로 열어주세요
-2. 'Simulator'또는 실기기로 실행가능 합니다.
-3. HealthKit은 실제 기기에서만 작동합니다.
+
+## 🛠️ 개발 환경
+- **Xcode** (StoryBoard 기반)
+- **Swift 5**
+- **Frameworks**: UIKit / MapKit / HealthKit
+- **Firebase API**: 로그인, 회원가입 기능 구현
+- **YouTube API**: 음악 재생 기능
+- **GitHub**: 버전 관리
 
 ---
-## 제출자 
+
+## ▶️ 실행 방법
+1. 프로젝트 압축을 해제한 후 `FITBOX.xcodeproj` 파일을 Xcode로 엽니다.
+2. 시뮬레이터 또는 실기기에서 실행 가능합니다.
+3. **HealthKit 기능은 실기기에서만 작동**합니다.
+
+---
+
+## 👤 제출자
 - 이름: **김문성**
-- 학번: 2021145124
+- 학번: **2021145124**
 
 ---
-## 실행화면
-![1](https://github.com/user-attachments/assets/6398ad21-ccd6-4956-a577-2c66e426eccb)
-![2](https://github.com/user-attachments/assets/6be04771-ea58-4c03-87aa-ef0937a1537a)
-![3](https://github.com/user-attachments/assets/12c1674a-6736-4855-9cd0-981ae726dc7d)
 
--로그인 화면입니다 
-3가지의 화면이 5초 간격으로 변화하게 만들었습니다.
-----
-![13](https://github.com/user-attachments/assets/4ef91ccf-f788-4e40-8008-ee9f41098c8b)
+## 📸 실행 화면
 
--파이어 베이스 서버에 등록되지 않은 계정으로
-로그인을 하려하면 이렇게 로그인이 불가능합니다
+### 🔐 로그인 화면
+<img src="https://github.com/user-attachments/assets/6398ad21-ccd6-4956-a577-2c66e426eccb" width="300" />
+<img src="https://github.com/user-attachments/assets/6be04771-ea58-4c03-87aa-ef0937a1537a" width="300" />
+<img src="https://github.com/user-attachments/assets/12c1674a-6736-4855-9cd0-981ae726dc7d" width="300" />
 
-----
-![4](https://github.com/user-attachments/assets/3789be2d-76bc-4656-b7bd-f4b48c2f7449)
-![5](https://github.com/user-attachments/assets/897db1a9-37ef-4572-8e21-2018f38f1d82)
+- 3가지 배경 이미지가 5초 간격으로 자동 전환됩니다.
 
--회원가입 화면입니다
-모든 정보를 입력하디 않으면 회원가입이 되지않고
-정보를 다 입력하고 기존 회원과 중복이 
-되지 않으면 가입이 완료 됩니다
-----
+### ❌ 로그인 실패 예시
+<img src="https://github.com/user-attachments/assets/4ef91ccf-f788-4e40-8008-ee9f41098c8b" width="300" />
 
-![6](https://github.com/user-attachments/assets/01f9a64e-f02b-4b50-92ad-79b5398b3589)
+- Firebase 서버에 등록되지 않은 계정은 로그인할 수 없습니다.
 
--메인 홈 화면입니다
-운동 어플이기때문에 메인화면에 지도를 넣어 두었고
-메뉴 버튼을 누르면  
-운동에 도움이 되는 기능들을 이용할수 있습니다.
-----
-![7](https://github.com/user-attachments/assets/8b4b4d17-a0ba-4c86-a3fe-00d1b721f8d2)
-![8](https://github.com/user-attachments/assets/985d0ac2-cbe4-435c-b4b0-b3b55a712b4c)
-![9](https://github.com/user-attachments/assets/ad077354-1c9d-431b-bf97-6da0cd738972)
-![10](https://github.com/user-attachments/assets/759e3834-0114-49f5-9f28-8a759d245baf)
-![11](https://github.com/user-attachments/assets/a875d86f-a51b-49c8-9101-482a65ac75a4)
+---
 
-- 사이드 패널 화면입니다
-- 사용자의 추가적인 생체정보를 작성하는 페이지
-- 운동한 날짜를 달력에 기록 가능한 페이지
-- 운동에 도움이 되는 조언을 주는 페이지
-- 앱의 정보가 나오는 페이지로 구성 되어 있습니다.
-----
+### 📝 회원가입 화면
+<img src="https://github.com/user-attachments/assets/3789be2d-76bc-4656-b7bd-f4b48c2f7449" width="300" />
+<img src="https://github.com/user-attachments/assets/897db1a9-37ef-4572-8e21-2018f38f1d82" width="300" />
 
-![12](https://github.com/user-attachments/assets/b565ab29-8207-4015-9c40-2dc198fcb314)
-![14](https://github.com/user-attachments/assets/54dc21c1-f265-45c2-beb9-ad1bb314de9c)
+- 모든 필수 정보를 입력해야 회원가입이 가능하며, 기존 계정과 중복되지 않으면 가입이 완료됩니다.
 
-- 운동 화면입니다
-홈화면에서 운동 시작 버튼을 누르면
-이 화면으로 전환되고
-심박수를 기반으로 음악이 나오며
-다른 노래로 전환하거나, 노래를 멈출수 있고
-중지 버튼으로 홈 화면으로 돌아갈수 있습니다.
+---
+
+### 🗺️ 메인 홈 화면
+<img src="https://github.com/user-attachments/assets/01f9a64e-f02b-4b50-92ad-79b5398b3589" width="300" />
+
+- 지도 기반 UI를 제공하며, 좌측 상단의 메뉴 버튼으로 다양한 운동 기능에 접근할 수 있습니다.
+
+---
+
+### 📂 사이드 패널 화면
+<img src="https://github.com/user-attachments/assets/8b4b4d17-a0ba-4c86-a3fe-00d1b721f8d2" width="300" />
+<img src="https://github.com/user-attachments/assets/985d0ac2-cbe4-435c-b4b0-b3b55a712b4c" width="300" />
+<img src="https://github.com/user-attachments/assets/ad077354-1c9d-431b-bf97-6da0cd738972" width="300" />
+<img src="https://github.com/user-attachments/assets/759e3834-0114-49f5-9f28-8a759d245baf" width="300" />
+<img src="https://github.com/user-attachments/assets/a875d86f-a51b-49c8-9101-482a65ac75a4" width="300" />
+
+- 사용자의 추가 생체 정보 입력
+- 운동 이력 기록을 위한 달력
+- 운동 팁 및 앱 정보 확인
+
+---
+
+### 🏃 운동 화면
+<img src="https://github.com/user-attachments/assets/b565ab29-8207-4015-9c40-2dc198fcb314" width="300" />
+<img src="https://github.com/user-attachments/assets/54dc21c1-f265-45c2-beb9-ad1bb314de9c" width="300" />
+
+- 운동 시작 시 이 화면으로 전환되며,
+  - 심박수에 따라 음악이 자동 재생됩니다.
+  - 다음 곡, 정지 버튼으로 제어 가능
+  - 운동 종료 시 홈 화면으로 복귀합니다.
+
+---
+
+📦 **감사합니다!**
 
 
 
